@@ -77,6 +77,15 @@
 
 [[projects]]
   branch = "master"
+  name = "golang.org/x/net"
+  packages = [
+    "context",
+    "context/ctxhttp"
+  ]
+  revision = "9ef9f5bb98a1fdc41f8cf6c250a4404b4085e389"
+
+[[projects]]
+  branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix"]
   revision = "7c87d13f8e835d2fb3a70a2912c811ed0c1d241b"
@@ -95,6 +104,17 @@
   version = "v0.3.0"
 
 [[projects]]
+  branch = "master"
+  name = "google.golang.org/api"
+  packages = [
+    "gensupport",
+    "googleapi",
+    "googleapi/internal/uritemplates",
+    "pubsub/v1"
+  ]
+  revision = "348810ff778af56686d572415ce79e6c9fad9613"
+
+[[projects]]
   name = "gopkg.in/yaml.v2"
   packages = ["."]
   revision = "5420a8b6744d3b0345ab293f6fcba19c978f1183"
@@ -103,6 +123,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "13406016a0c35ecbeafa049b21f11e8a489af5c8e5a0158bb047e8a4e7c06dd1"
+  inputs-digest = "c270490fd0d26563dd41de2f4649c70a48dc9327b06aa1dabc15b201be89b304"
   solver-name = "gps-cdcl"
   solver-version = 1
