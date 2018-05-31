@@ -1,0 +1,25 @@
+name: /Users/koichirokamoto/dev/playground/mobilenet/
+dependencies:
+  - 'anaconda::h5py'
+  - 'anaconda::joblib'
+  - 'anaconda::jupyter'
+  - 'anaconda::matplotlib'
+  - 'anaconda::numpy'
+  - 'anaconda::pandas'
+  - 'anaconda::python=3.6'
+  - 'anaconda::scipy'
+  - 'anaconda::scikit-image'
+  - 'anaconda::scikit-learn'
+  - 'anaconda::seaborn'
+  - 'anaconda::setuptools'
+  - 'anaconda::tqdm'
+  - pip:
+      - autopep8
+      - hyperopt
+      - kaggle
+      - keras
+      - opencv-python
+      - pylint
+      - tensorflow
+      - tensorflowjs
+      - xgboost
