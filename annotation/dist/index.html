@@ -1,0 +1,48 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<style>
+  body {
+    width: 100%;
+  }
+
+  main {
+    width: 80%;
+    margin: auto;
+  }
+
+  #container {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  #video {
+    width: 100%;
+  }
+
+  #capture-img {
+    z-index: 10;
+    width: 100%;
+  }
+</style>
+
+<body>
+  <header>
+    <h1>Annotation</h1>
+  </header>
+  <div>
+    <button id="reset">Reset</button>
+    <button id="check">Check</button>
+    <div id="container">
+      <input type="file" id="file-photo" capture="environment">
+    </div>
+  </div>
+  <img id="check-img">
+  <footer></footer>
+  <script src="index.js"></script>
+</body>
+
+</html>
