@@ -32,13 +32,13 @@
 <body>
   <div class="container margin--auto">
     <video autoplay></video>
-    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent display--block margin--auto">
+    <button id="capture" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent display--block margin--auto">
       Button
     </button>
     <div id="p1" class="mdl-progress mdl-js-progress" style="margin: auto;"></div>
     <p class="mdl-spinner mdl-js-spinner mdl-spinner--single-color is-active"></p>
     <div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate" style="margin: auto;"></div>
-    <table class="mdl-data-table mdl-shadow--2dp margin--auto" >
+    <table class="mdl-data-table mdl-shadow--2dp margin--auto">
       <thead>
         <tr>
           <th class="mdl-data-table__cell--non-numeric">❌だめ</th>
@@ -52,6 +52,8 @@
         </tr>
       </tbody>
     </table>
+    <canvas id="c1"></canvas>
+    <canvas id="c2"></canvas>
   </div>
   <script>
     let i = 0;
@@ -68,4 +70,5 @@
       document.querySelector('#p1').dispatchEvent(event);
     }, 1000)
   </script>
+  <script src="index.js"></script>
 </body>
